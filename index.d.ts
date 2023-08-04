@@ -13,7 +13,8 @@ declare module 'athena-express' {
         skipResults: boolean,
         waitForResults: boolean,
         catalog: string,
-        pagination: string
+        pagination: string,
+        maxReuseResultsAge: number,
     }
 
     interface QueryResultsInterface<T> {
