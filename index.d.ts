@@ -40,6 +40,7 @@ declare module 'athena-express' {
         NextToken?: string;
         QueryExecutionId?: string;
         catalog?: string;
+        maxReuseResultsAge?: number,
     }
     type DirectQueryString = string;
     type QueryExecutionId = string;
